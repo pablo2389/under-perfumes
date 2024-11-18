@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/under-perfumes/static/css/main.a265e0f3.css",
+    "main.js": "/under-perfumes/static/js/main.f81d474d.js",
+    "index.html": "/under-perfumes/index.html",
+    "main.a265e0f3.css.map": "/under-perfumes/static/css/main.a265e0f3.css.map",
+    "main.f81d474d.js.map": "/under-perfumes/static/js/main.f81d474d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a265e0f3.css",
+    "static/js/main.f81d474d.js"
+  ]
+}
