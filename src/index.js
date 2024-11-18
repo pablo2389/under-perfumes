@@ -1,10 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; // Para React 18
 import App from './App';
+import './index.css';  // Importación global de CSS
+import { BrowserRouter as Router } from 'react-router-dom';
 
+// Aquí debes envolver toda la aplicación en Router
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>
+  </Router>
 );

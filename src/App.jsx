@@ -1,14 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import './App.css';  // Ajusta la ruta si es necesario
+import './App.css'; // Importación del CSS de la aplicación
 
 const App = () => (
-  <Router>
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
-  </Router>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/under-perfumes" element={<Home />} />
+  </Routes>
 );
 
 export default App;
